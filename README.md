@@ -20,4 +20,4 @@ Can send notice by sections or course.
 
 Student: Student can see all subjects and sections is which he or she got enrolled.
 Can see all subjects grade. 
-and also can see notice. 
+and also can see notices. 
