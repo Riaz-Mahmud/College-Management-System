@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Final_Project" Label="Final_Project" Category="Project" />
+    <Node Id="Bunifu.Dataviz.WinForms 2.0.9" Label="Bunifu.Dataviz.WinForms 2.0.9" Category="Package" />
+    <Node Id="Bunifu.UI.WinForms 2.1.6" Label="Bunifu.UI.WinForms 2.1.6" Category="Package" />
+  </Nodes>
+  <Links>
+    <Link Source="Final_Project" Target="Bunifu.Dataviz.WinForms 2.0.9" Category="Installed Package" />
+    <Link Source="Final_Project" Target="Bunifu.UI.WinForms 2.1.6" Category="Installed Package" />
+  </Links>
+  <Categories>
+    <Category Id="Project" />
+    <Category Id="Package" />
+  </Categories>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Project" ValueLabel="True">
+      <Condition Expression="HasCategory('Project')" />
+      <Setter Property="Background" Value="Blue" />
+    </Style>
+  </Styles>
+</DirectedGraph>
